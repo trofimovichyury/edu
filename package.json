@@ -1,0 +1,14 @@
+{
+  "name": "edu",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "mocha test/**/*.unit.js"
+  }
+}
