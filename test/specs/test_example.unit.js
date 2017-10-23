@@ -1,4 +1,4 @@
-import simpleObject from '../src/test_me';
+import simpleObject from '../../src/test_me';
 import { expect } from 'chai';
 
 describe('simpleObject', () => {
