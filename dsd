@@ -1,0 +1,35 @@
+[33mcommit 8476de0555185ce724743b4ee3cc41c0bac8f2db[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m
+Author: Aliaksandr Semchanka <Aliaksandr_Semchanka@epam.com>
+Date:   Tue Oct 24 15:10:39 2017 +0300
+
+    a few more checks added
+
+[33mcommit 5721d999292567fd0219ebf726f9d7657a58b105[m
+Author: Aliaksandr Semchanka <Aliaksandr_Semchanka@epam.com>
+Date:   Tue Oct 24 14:18:46 2017 +0300
+
+    calculator fixed
+
+[33mcommit e321057de751125683d3d0db8b615df1ef2313d4[m
+Author: Aliaksandr Semchanka <Aliaksandr_Semchanka@epam.com>
+Date:   Tue Oct 24 10:30:10 2017 +0300
+
+    test for calculator added
+
+[33mcommit 8bba4ad0bc2e5e0d35ce67f0069fd47a0b21f1a6[m[33m ([m[1;32mdevelop[m[33m)[m
+Author: Aliaksandr Semchanka <Aliaksandr_Semchanka@epam.com>
+Date:   Mon Oct 23 16:56:43 2017 +0300
+
+    commit
+
+[33mcommit e9cf8c189de6d58274204c2dd1c7bf99f9d8bf58[m[33m ([m[1;32morigin[m[33m)[m
+Author: Aliaksandr Semchanka <Aliaksandr_Semchanka@epam.com>
+Date:   Mon Oct 23 15:55:53 2017 +0300
+
+    calculator created
+
+[33mcommit 1417615dda07a80b1d7c5a401d9ba1fa680755ad[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: trofimovichyury <trofimovichyury@gmail.com>
+Date:   Fri Oct 20 16:06:20 2017 +0300
+
+    Initial commit
