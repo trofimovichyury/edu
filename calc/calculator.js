@@ -1,17 +1,19 @@
 class Calc {
-    constructor() {
-    }
-
-    sum(a, b) {
-        let firstNumber = +a;
-        let secondNumber = +b;
-        if (isNaN(firstNumber) || isNaN(secondNumber)) {
-            return NaN;
-        }
-        return firstNumber + secondNumber;
-    }
+  constructor() {
 }
 
-let calculator = new Calc();
-console.log(calculator.sum(5, 3));
+sum(a, b) {
+    let firstNumber = +a;
+    let secondNumber = +b;
+    if (isNaN(firstNumber) || isNaN(secondNumber)) {
+        return NaN;
+    }
+    return firstNumber + secondNumber;
+}
+};
+const calculator = new Calc();
+
+export default calculator;
+
+
 
