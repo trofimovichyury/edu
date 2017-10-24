@@ -1,4 +1,4 @@
-class Calc {
+export default class Calculator {
   constructor() {
 }
 
@@ -11,9 +11,6 @@ sum(a, b) {
     return firstNumber + secondNumber;
 }
 };
-const calculator = new Calc();
-
-export default calculator;
 
 
 
