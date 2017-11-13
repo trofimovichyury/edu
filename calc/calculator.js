@@ -8,10 +8,15 @@ export default class Calculator {
         return firstNumber + secondNumber;
     }
     mul(a, b) {
-        return a * b;
+        if (this.isNumeric(a) && this.isNumeric(b)) {
+            return a * b;
+        }
+        return NaN;
+    }
+    isNumeric(n) {
+        return !isNaN(parseFloat(n)) && isFinite(n);
     }
 };
-
 
 
 

@@ -33,5 +33,17 @@ let Calculator = new Calc;
         it('return multiplying -2 and 2 equal to -4', () => {
             expect(Calculator.mul(-2, 2)).to.equal(-4);
         });
+        it('returns NaN if the value of one of the parameters is NaN', () => {
+            expect(isNaN(Calculator.mul(2, NaN))).to.equal(true);
+        });
+        it('returns NaN if the value of one of the parameters is a string', () => {
+            expect(isNaN(Calculator.mul(2, 'string'))).to.equal(true);
+        });
+        it('returns NaN if the value of one of the parameters is null', () => {
+            expect(isNaN(Calculator.mul(2, null))).to.equal(true);
+        });
+        it('returns NaN if the value of one of the parameters is undefined', () => {
+            expect(isNaN(Calculator.mul(2, undefined))).to.equal(true);
+        })
     });
 });
