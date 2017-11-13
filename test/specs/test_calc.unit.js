@@ -36,7 +36,7 @@ let Calculator = new Calc;
         it('returns NaN if the value of one of the parameters is NaN', () => {
             expect(isNaN(Calculator.mul(2, NaN))).to.equal(true);
         });
-        it('returns NaN if the value of one of the parameters is a string', () => {
+        it('returns NaN if one of the arguments can not be converted to a number', () => {
             expect(isNaN(Calculator.mul(2, 'string'))).to.equal(true);
         });
         it('returns NaN if the value of one of the parameters is null', () => {

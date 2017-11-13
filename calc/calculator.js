@@ -1,11 +1,9 @@
 export default class Calculator {
     sum(a, b) {
-        let firstNumber = +a;
-        let secondNumber = +b;
-        if (isNaN(firstNumber) || isNaN(secondNumber)) {
-            return NaN;
+        if (this.isNumeric(a) || this.isNumeric(b)) {
+            return a + b;
         }
-        return firstNumber + secondNumber;
+        return NaN;
     }
     mul(a, b) {
         if (this.isNumeric(a) && this.isNumeric(b)) {
@@ -17,7 +15,4 @@ export default class Calculator {
         return !isNaN(parseFloat(n)) && isFinite(n);
     }
 };
-
-
-
 
